@@ -3,7 +3,7 @@ const app = express();
 const axios = require("axios");
 
 app.get("/", async (req, res) => {
-  res.sendFile(__dirname + "/solution/index.html");
+  res.sendFile(__dirname + "/client/index.html");
 });
 
 app.get("/api", async (req, res) => {
