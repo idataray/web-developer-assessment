@@ -1,5 +1,5 @@
 {
-  "name": "Test",
+  "name": "test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,13 +13,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iDataresearch-Public/WD-Test-1.git"
+    "url": "git+https://github.com/iDataresearch-Public/iData-WD-Test-2020.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iDataresearch-Public/WD-Test-1/issues"
+    "url": "https://github.com/iDataresearch-Public/iData-WD-Test-2020/issues"
   },
-  "homepage": "https://github.com/iDataresearch-Public/WD-Test-1#readme"
+  "homepage": "https://github.com/iDataresearch-Public/iData-WD-Test-2020#readme"
 }
