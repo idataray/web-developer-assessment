@@ -2,7 +2,7 @@
 
 ##### Keep it clean and simple
 
-##### You have ~ 30 minutes to complete the test, it should be more than enough time.
+##### You have ~ 1 hour to complete the test, it should be more than enough time.
 
 =========================================================
 
