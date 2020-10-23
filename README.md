@@ -19,9 +19,9 @@ Note: You need Node.js/npm to run the project -- but you do not need to do work 
 
 2. Clone the repository, and create a branch under `'test/[Your First Name]'`
 
-3. This repository uses Node.js -- install dependencies if you are familiar. If you are not familiar with Node -- ask
+3. This repository uses Node.js, and includes bootstrap and axios -- you must install dependencies
 
-4. When you are done, push your code to the branch, and submit a pull request.
+4. When you are done, push your branch, and submit a pull request.
 
 User stories:
 
