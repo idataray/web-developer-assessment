@@ -2,7 +2,7 @@
 
 ##### Keep it clean and simple
 
-##### You have ~ 1 hour to complete the test, it should be more than enough time.
+##### The test should take approximately 1 hour
 
 =========================================================
 
@@ -19,7 +19,7 @@ Note: You need Node.js/npm to run the project -- but you do not need to do work 
 
 2. Clone the repository, and create a branch under `'test/[Your First Name]'`
 
-3. This repository uses Node.js, and includes bootstrap and axios -- you must install dependencies
+3. This repository uses Node.js, and includes bootstrap and axios -- you must install dependencies and run the server first
 
 4. When you are done, push your branch, and submit a pull request.
 
