@@ -12,12 +12,13 @@ System Requirements:
 - Npm
 
 Note: You need Node.js/npm to run the project -- but you do not need to do work in the backend unless you chose to.
+Note: See below for some useful hints for Git/Node
 
 1. Your goal is to create a simple interface that looks similar to this:
 
    ![image](./screenshots/Snapshot.PNG)
 
-2. Fork the repository, clone and create a branch under `'test/[Your First Name]'`
+2. Fork the repository, clone and create a branch under test/[Your First Name]
 
 3. This repository uses Node.js, and includes bootstrap and axios -- you must install dependencies and run the server first
 
@@ -57,3 +58,8 @@ Note: that all you need is `chart / result / meta` in order to access the requir
                     "priceHint": 2,
                     ....
 ```
+
+Hints: 
+- To create a branch in git *git checkout -b test/[Your First Name]*
+- To start the server *node index.js*
+- To push your current branch *git push -u origin head*
