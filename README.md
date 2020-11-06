@@ -12,7 +12,7 @@ System Requirements:
 - Npm
 
 Note: You need Node.js/npm to run the project -- but you do not need to do work in the backend unless you chose to.
-Note: See below for some useful hints for Git/Node
+Note: See below for some useful links
 
 1. Your goal is to create a simple interface that looks similar to this:
 
@@ -20,7 +20,7 @@ Note: See below for some useful hints for Git/Node
 
 2. Fork the repository, clone and create a branch under test/[Your First Name]
 
-3. This repository uses Node.js, and includes bootstrap and axios -- you must install dependencies and run the server first
+3. This repository uses Node.js, and includes bootstrap and axios -- you must install dependencies and run the server first (run *node index.js*)
 
 4. When you are done, push your **branch**, and submit a pull request.
 
@@ -59,7 +59,7 @@ Note: that all you need is `chart / result / meta` in order to access the requir
                     ....
 ```
 
-Hints: 
-- To create a branch in git *git checkout -b test/[Your First Name]*
-- To start the server *node index.js*
-- To push your current branch *git push -u origin head*
+Links:
+- [Git Commands](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
+- [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) and [Axios](https://github.com/axios/axios/blob/master/README.md)
+- [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
