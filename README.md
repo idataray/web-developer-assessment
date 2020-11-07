@@ -2,7 +2,7 @@
 
 ##### Keep it clean and simple
 
-##### The test should take approximately 1 hour
+##### The test should take approximately 60 - 90 mins
 
 =========================================================
 
@@ -12,7 +12,7 @@ System Requirements:
 - Npm
 
 Note: You need Node.js/npm to run the project -- but you do not need to do work in the backend unless you chose to.
-Note: See below for some useful links
+Note: See below for some useful hints and links
 
 1. Your goal is to create a simple interface that looks similar to this:
 
@@ -20,9 +20,14 @@ Note: See below for some useful links
 
 2. Fork the repository, clone and create a branch under test/[Your First Name]
 
-3. This repository uses Node.js, and includes bootstrap and axios -- you must install dependencies and run the server first (run *node index.js*)
+   clone command: 'git clone [repo url]'
+   new branch: 'git checkout -b test/[Your First Name]' 
+
+3. This repository uses Node.js, and includes bootstrap and axios -- you must install dependencies and run the server first
 
 4. When you are done, push your **branch**, and submit a pull request.
+
+   push current branch: 'git push -u origin head'
 
 User stories:
 
@@ -58,6 +63,10 @@ Note: that all you need is `chart / result / meta` in order to access the requir
                     "priceHint": 2,
                     ....
 ```
+
+Hints:
+   
+   
 
 Links:
 - [Git Commands](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
