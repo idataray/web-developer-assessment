@@ -11,7 +11,13 @@ System Requirements:
 - Node.js
 - Npm
 
-Note: You need Node.js/npm to run the project -- but you do not need to do work in the backend unless you chose to.
+Skills tested:
+
+- HTML
+- CSS
+- JavaScript
+
+Note: Most of your work should be done in the client folder, there is no need to touch the server unless you wish to. Also, feel free to use any third party library as you see fit.
 
 1. Your goal is to create a simple interface that looks similar to this:
 
