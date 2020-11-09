@@ -6,16 +6,16 @@
 
 =========================================================
 
-System Requirements:
-
-- Node.js
-- Npm
-
 Skills tested:
 
 - HTML
 - CSS
 - JavaScript
+
+System Requirements:
+
+- Node.js
+- Npm
 
 Note: Most of your work should be done in the client folder, there is no need to touch the server unless you wish to. Also, feel free to use any third party library as you see fit.
 
