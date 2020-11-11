@@ -18,13 +18,17 @@ Note: Most of your work should be done in the client folder, there is no need to
 
    ![image](./screenshots/Snapshot.PNG)
 
-2. Fork the repository, clone and create a branch under test/[Your First Name]
 
-3. This repository uses Node.js, and includes bootstrap and axios -- you must install dependencies and run the server first
+2. Fork [this repl](https://repl.it/@idataresearch/iData-WD-Test-2020), and then rename it 'iData-WD-Test-2020/[Your First Name]'
 
-4. When you are done, push your branch, and submit a pull request.
-   
-**Note: if you are having issues submitting the test, please create a zip folder including the client directory + any other files you made changes to and send them via email**
+
+3. Alternatively, if you'd prefer to complete the test locally, simply fork this repo and create a branch 'test/[Your First Name]'
+
+
+4. This project includes bootstrap and axios, but you are not required to use them
+
+
+5. When you are done, share your link via email or make a pull request (if you're using Git)
 
 User stories:
 
@@ -62,6 +66,5 @@ Note: that all you need is `chart / result / meta` in order to access the requir
 ```
 
 Links:
-- [Git Commands](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
 - [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) and [Axios](https://github.com/axios/axios/blob/master/README.md)
 - [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
