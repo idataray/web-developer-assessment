@@ -1,10 +1,6 @@
-#### Welcome to the iData Research Web Developer Test
+# iData Research Web Developer Assessment
 
-##### Keep it clean and simple
-
-##### The test should take approximately 60 - 90 mins
-
-=========================================================
+**Keep it clean and simple. It should take approximately 60 to 90 minutes to complete.**
 
 Skills tested:
 
