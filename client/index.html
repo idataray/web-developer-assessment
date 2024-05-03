@@ -23,6 +23,25 @@
       }
       
       /* your CSS here */
+
+      table {
+        width: 100%;
+      }
+
+      thead {
+        border: 2px solid lightgrey;
+      }
+      
+      th, td {
+        padding: 0.75rem;
+      }
+
+      #components {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+      }
     
     </style>
   </head>
@@ -32,10 +51,52 @@
       
       <!-- your HTML here -->
 
+      <div id="components">
+        <form method="GET" action="/api">
+          <button type="submit">Submit</button>
+        </form>
+        <table>
+          <thead>
+            <tr>
+              <th>Timestamp</th>
+              <th>Currency</th>
+              <th>Symbol</th>
+              <th>Market Price</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+
     </div>
     <script>
       
       // your JS here
+
+      document.querySelector("form").addEventListener("submit", (e) => {
+        e.preventDefault(); // Prevents default submit behavior causing page refresh
+
+        fetch("/api", {
+          method: "GET"
+        })
+        .then(response => response.json())
+        .then(data => {
+          const result = data.chart.result[0];
+          // console.log(result);
+
+          const html = `
+            <tr>
+              <td>${new Date()}</td>
+              <td>${result.meta.currency}</td>
+              <td>${result.meta.symbol}</td>
+              <td>${result.meta.regularMarketPrice}</td>
+            </tr>
+          `;
+
+          document.querySelector("tbody").insertAdjacentHTML("beforeend", html);
+        })
+      });
     
     </script>
   </body>
